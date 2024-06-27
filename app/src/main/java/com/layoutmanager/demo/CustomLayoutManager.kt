@@ -176,6 +176,9 @@ class CustomLayoutManager : RecyclerView.LayoutManager() {
         return dx
     }
 
+    /**
+     * 回收
+     */
     private fun recycle(
         dx: Int,
         recycler: RecyclerView.Recycler
